@@ -1,0 +1,316 @@
+body {
+  background-color: #131313;
+}
+
+::placeholder {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container-button-one {
+  width: 524px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-button-one input[type=number]::-webkit-outer-spin-button,
+.container-button-one input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  outline: none;
+}
+.container-button-one input:focus {
+  outline: none;
+  border: 2px solid #65b657;
+}
+.container-button-one .pid {
+  display: flex;
+  width: 300px;
+  height: 35px;
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: 2px solid #90FF7D;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.container-button-two {
+  margin-bottom: 24px;
+}
+
+.button {
+  width: 140px;
+  height: 35px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  border: 2px solid #80CCE6;
+  background-color: transparent;
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 10px;
+  margin-right: 18px;
+  letter-spacing: 0.5px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.blue {
+  border: 2px solid #0071ff;
+}
+
+.four {
+  margin-top: 16px;
+}
+
+.fa-paste {
+  font-size: 22px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+.button:active:not(.blue) {
+  border: 2px solid #599aaf;
+}
+
+.blue:active {
+  border: 2px solid #203ee8;
+  transition: transform 0.3s;
+}
+
+.btnEliminar {
+  width: 32px;
+  height: 32px;
+  background-color: #e44343;
+  padding: 4px 8px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.container {
+  width: 800px;
+  padding: 2rem;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid #4B2626;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(18.2px);
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container h1 {
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+.container .grid-left {
+  grid-column-start: 1;
+}
+.container .title {
+  text-align: center;
+}
+.container .grid-max {
+  grid-column: 1/3;
+}
+.container .grid-right {
+  grid-column-end: 3;
+  justify-self: right;
+}
+.container .links {
+  display: flex;
+  justify-content: space-between;
+}
+.container .completions {
+  align-items: center;
+}
+.container a {
+  text-decoration: none;
+}
+
+.table-container {
+  max-height: 400px;
+  overflow: auto;
+}
+
+/* Estilos para Firefox */
+.table-container {
+  scrollbar-width: thin;
+  scrollbar-color: #81eb08 #000000;
+  border-radius: 10px;
+}
+
+table {
+  background-color: #f2f2f2;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+  font-size: 14px;
+}
+table .table-head {
+  color: #131313;
+  background-color: #f2f2f2;
+}
+table th {
+  padding: 8px 0;
+}
+table td {
+  padding: 8px 0;
+}
+table tr:nth-child(even) {
+  background: #B9EDFF;
+}
+
+.time-utilization {
+  margin-top: 20px;
+  width: 400px;
+  height: 300px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(1deg, #63ab04 -8.79%, #81E500 104.3%);
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+.time-u {
+  font-weight: 700;
+}
+
+.percentage {
+  color: #131313;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.completions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.completions h2 {
+  color: #f2f2f2;
+}
+.completions .packages {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding: 8px 24px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  border: 2px solid #90FF7D;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.completions .total-title {
+  width: 150px;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.completions .titles, .completions span {
+  color: #f2f2f2;
+  font-size: 12px;
+}
+.completions span {
+  font-weight: 600;
+}
+.completions .green-total {
+  color: #90FF7D;
+  font-size: 25px;
+}
+
+.ui-datepicker {
+  background: #f0f0f0;
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ui-datepicker-header {
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.ui-datepicker-title {
+  font-weight: bold;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+  color: #fff;
+}
+
+.ui-datepicker-calendar td a {
+  color: #333;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.ui-datepicker-calendar td a:hover {
+  background: #ddd;
+}
+
+input[type=text] {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+}
+
+* {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./gradient.png");
+  background-repeat: repeat;
+}
+
+a {
+  color: #f2f2f2;
+}
+
+/*# sourceMappingURL=style.css.map */

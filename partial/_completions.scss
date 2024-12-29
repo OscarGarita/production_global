@@ -1,0 +1,52 @@
+$text-color-white:#f2f2f2;
+$green:#90FF7D;
+$width: 200px;
+
+.completions{
+    h2{
+        color:$text-color-white ;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .packages{
+        display: flex;
+        width: $width;
+        height: 50px;
+        padding: 8px 24px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 25px;
+        border: 2px solid $green;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+.total-title{
+    width: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    
+    font-size: 18px;
+    
+
+}
+    .titles, span{
+        color: $text-color-white;
+        font-size: 12px;
+        
+    }
+    span{
+        font-weight:600 ;
+        
+    }
+
+    .green-total{
+        color: $green;
+        font-size: 25px;
+    }
+
+    
+}

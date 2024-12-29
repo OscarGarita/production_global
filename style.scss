@@ -1,0 +1,26 @@
+@use 'partial/body';
+@use 'partial/buttons';
+@use 'partial/container';
+@use 'partial/tableContainer';
+@use 'partial/timeUtilization';
+@use 'partial/completions';
+@use 'partial/calendar';
+
+
+*{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./gradient.png');
+    background-repeat:repeat ;
+ 
+}
+
+a{
+    color: #f2f2f2; 
+   
+}

@@ -1,0 +1,37 @@
+.ui-datepicker {
+    background: #f0f0f0;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ui-datepicker-header {
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px 10px 0 0;
+}
+.ui-datepicker-title {
+    font-weight: bold;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    color: #fff;
+}
+.ui-datepicker-calendar td a {
+    color: #333;
+    background: #fff;
+    border-radius: 4px;
+    padding: 5px;
+}
+.ui-datepicker-calendar td a:hover {
+    background: #ddd;
+}
+input[type="text"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+}

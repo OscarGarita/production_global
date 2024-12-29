@@ -1,0 +1,34 @@
+$red:#c30505;
+$orange:#f8643f;
+$yellow:#fbc31e;
+$green:#00df3f;
+$width:400px;
+$height:300px;
+
+.time-utilization{
+    margin-top: 20px;
+    width: $width;
+    height: $height;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(1deg, #63ab04 -8.79%, #81E500 104.3%);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.time-u{
+       font-weight: 700;
+    }
+
+    .percentage{
+        color: #131313;
+        font-family: Poppins;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    } 
